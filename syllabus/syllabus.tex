@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1.1in]{geometry}
+\input{../../syllabi/preamble}
+
+%%edit these!!
+\newcommand{\coursedept}{MATH}
+\newcommand{\coursenumber}{203}
+\newcommand{\professorname}{Adam Kapelner, Ph.D.}
+\newcommand{\sixhundredsection}{}
+\newcommand{\coursenumbercrosslisted}{}
+\newcommand{\semester}{Fall}
+\newcommand{\numcredits}{3}
+\newcommand{\lectimeandloc}{Tues and Thurs 5-6:50PM}
+\newcommand{\professorcontactinfo}{Write to \texttt{@kapelner} on \slacklink}
+\newcommand{\professoroffice}{604 Kiely Hall}
+\newcommand{\requiredlabtimeandloc}{}
+\newcommand{\tataofficehourtimeandloc}{} %TA / TA Office Hours / Loc & Kennly Weerasinghe / see \coursewebpagelink
+\newcommand{\numtheoryhws}{6--9}
+\newcommand{\lastdatetimetohandinhomeworks}{Dec 15 at noon}
+\newcommand{\midtermonedateandlocation}{Thursday, October 7 on zoom during class time}
+\newcommand{\midtermtwodateandlocation}{Thursday, November 11 on zoom during class time}
+\newcommand{\finaldateandlocation}{TBD but on zoom}
+
+%%%unchanged
+\newcommand{\coursewebpageurl}{https://github.com/kapelner/QC_\coursedept_\coursenumber_\semester_\the\year}
+\newcommand{\coursewebpagelink}{\href{\coursewebpageurl}{course homepage}}
+\newcommand{\slackurl}{https://QC\coursedept\coursenumber\semester\the\year.slack.com/}
+\newcommand{\slacklink}{\href{\slackurl}{slack}}
+
+\input{../../syllabi/_header}
+
+
+
+\section*{Course Overview}
+
+\coursedept~\coursenumber~is an introduction to the basic concepts and techniques of multivariate calculus and optimization while making use of computation. Topics to be covered are below (not in order of coverage):
+
+\begin{itemize}
+\itemsep -0.0em 
+\item Vector functions, derivatives of vector functions
+\item Functions of Multiple Variables, domain and range, limits, level surfaces
+\item Definition and Interpretation of Partial Derivatives, chain rule
+\item Grad function, div function
+\item Optimization in multiple variables, critical points, saddle points, the Hessian matrix, local-vs-global optimums
+\item Double integrals, iterated integrals, Fubini's theorem
+\item change of variables, Jacobian matrix and its determinant (with examples such as the Gaussian integral, the beta-gamma function equivalence)
+\item Convexity, gradient descent, hill climbing, Newton's method
+\item Stochastic gradient descent (SGD) methods
+\item Lagrangian multipliers for constrained optimization, the KKT approach
+
+\end{itemize}
+
+Students taking this course may not receive credit for MATH 201 nor CSCI 222, except by permission of the chair. Prequisites include MATH 142 or 151, MATH 231 and CSCI 111. Corequisites include MATH 241 or 243. \textbf{This is not your typical mathematics course.} This course develops ideas and concepts that are helpful for real-world situations. The course will make use of computation especially using the \texttt{Python} language.
+
+
+\section*{Course Materials}
+
+\paragraph{Two Textbooks:} (1) Essential Calculus, Second Edition, by James Stewart (Note: Do NOT purchase the "single variable" version.) In this class you are NOT required to purchase access to WebAssign, so you could rent/purchase a used version of the text. I expect most people will have the Second Edition, but if you have access to the First Edition, that is OK! You can purchase / rent the book online from the publisher by clicking \href{https://www.cengage.com/c/essential-calculus-2e-stewart/9781133112297PF/}{here}. (2) Algorithms for Optimization by Mykel J. Kochenderfer and Tim A. Wheeler. You can purchase the book online from the publisher by clicking \href{https://mitpress.mit.edu/books/algorithms-optimization}{here}. I will not be teaching \qu{from the book} and most of the material in the class comes from the lecture notes. The textbook is a way to get ``another take'' on the material.
+
+\paragraph{Computer Software:} We will also be using \texttt{Python} which is a free, open source programming language and console. To download \texttt{Python} go to \url{https://www.python.org/downloads/}. I then recommend the IDE \texttt{Jupyter Notebook} available for free so you can follow Amir's Python translations of the class demos. To install Notebook, open up a command prompt and executing \texttt{pip install notebook}. After this is installed, you can run \texttt{jupyter notebook} in a command prompty which will open up a web browser with the IDE embedded. An alternative method is to install Anaconda using \href{https://medium.com/@yunanwu2020/how-to-install-jupyter-notebook-from-scratch-on-anaconda-simple-codes-8652c3095091}{these instructions}.
+
+\paragraph{Calculator:} You can use a TI-84, 85, 89 or any calculator which you wish. I strongly suggest you use \href{http://www.wolframalpha.com/}{Wolfram Alpha} and its smartphone app.
+
+
+%\input{../../syllabi/_the650section}
+
+\input{../../syllabi/_announcements_on_slack}
+
+\input{../../syllabi/_use_of_slack}
+
+\input{../../syllabi/_standard_class_meetings}
+
+%\input{../../syllabi/_jewish_holiday_reschedule}
+
+%\input{../../syllabi/_zoom_policies}
+
+%\input{../../syllabi/_lecture_upload}
+
+\section*{Homework}
+
+\input{../../syllabi/_theory_hws_text}
+
+\input{../../syllabi/_theory_hws_submission_text}
+\input{../../syllabi/_philosophy_hws}
+
+\input{../../syllabi/_time_spent_hws}
+
+\input{../../syllabi/_late_hw_policy}
+
+\input{../../syllabi/_latex_hw_bonus_policy}
+
+\input{../../syllabi/_hw_ec_policy}
+
+\section*{Examinations}
+
+\input{../../syllabi/_examination_text}
+
+\input{../../syllabi/_standard_exam_schedule}
+
+\subsection*{Exam Policies and Materials}
+
+\input{../../syllabi/_examination_policies}
+
+%\input{../../syllabi/_zoom_examination_policies}
+
+\input{../../syllabi/_standard_cheat_sheet_policy}
+
+
+\input{../../syllabi/_cheating_on_exams_and_missing_exams}
+\input{../../syllabi/_special_services}
+
+\input{../../syllabi/_class_participation}
+
+%\input{../../syllabi/_zoom_attendance}
+
+\input{../../syllabi/_standard_grading_and_grading_policy}
+
+\input{../../syllabi/_241_grade_distribution}
+
+Note: 243 is a new course so this section was written based on 241 courses.
+
+
+%\input{../../syllabi/_advanced_course_grade_distribution}
+
+%\input{../../syllabi/_241_cs_c_minus_notice}
+
+\input{../../syllabi/_grade_checking_on_gradesly}
+
+\input{../../syllabi/_auditing_policy}
+
+%\pagebreak
+%\input{../../syllabi/_241_quiz}
+
+
+
+\end{document}
